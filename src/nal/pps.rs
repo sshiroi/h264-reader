@@ -156,9 +156,9 @@ impl PicScalingMatrix {
 
             let count = if transform_8x8_mode_flag {
                 if sps.chroma_info.chroma_format == sps::ChromaFormat::YUV444 {
-                    12
+                    6
                 } else {
-                    8
+                    2
                 }
             } else {
                 0
